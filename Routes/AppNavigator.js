@@ -1,8 +1,8 @@
-import { createStackNavigator, createAppContainer } from 'react-navigation';
+import { createDrawerNavigator, createAppContainer } from 'react-navigation';
 import Home from '../components/Home';
 import order from '../components/order'
 
-const AppNavigator = createStackNavigator({
+const AppNavigator = createDrawerNavigator({
   Home: { screen: Home },
   Order: { screen: order }
 },
