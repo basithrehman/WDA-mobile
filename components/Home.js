@@ -1,15 +1,15 @@
 import React from 'react';
 import { StyleSheet, Text, View, Button } from 'react-native';
 
+import MyHeader from "../components/MyHeader";
+
 export default class Home extends React.Component {
   render() {
     return (
-      <View style={[styles.container,{}]}>
-        <Text>Work Work Work</Text>
-        <Button title="order" onPress={ ()=> {
-            this.props.navigation.navigate('Order')
-        }}></Button>
-      </View>
+      <View>
+      <MyHeader navigation={this.props.navigation} title="Home" />
+      <Text>This is Home Screen</Text>
+    </View>
     );
   }
 }
