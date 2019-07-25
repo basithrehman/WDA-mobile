@@ -14,8 +14,8 @@ export default class Sidebar extends React.Component {
     render() {
         return (
             <SafeAreaView style={[{flex:1}]}>
-            <View style={[{height:'20%', backgroundColor: 'white', justifyContent:'center', alignItems:'center'}]}>
-            <FontAwesome size={100} name="user-circle"></FontAwesome>
+            <View style={[{height:'25%', backgroundColor: 'white', justifyContent:'center', alignItems:'center'}]}>
+            <FontAwesome style={[{paddingTop:25}]} size={100} name="user-circle"></FontAwesome>
             <Text style={[{paddingTop: 10, color:'#1f89dc'}]}>Hello User</Text>
             </View>
             <ScrollView>
