@@ -7,16 +7,16 @@ import MyHeader from "../components/MyHeader";
 
 export default class order extends React.Component {
   static navigationOptions = {
-    drawerLabel: 'Order',
+    drawerLabel: 'Order History',
     drawerIcon: () => (
-      <FontAwesome name='first-order' />
+      <FontAwesome name='history' size={19} />
       )
   }
   render() {
     return (
       <View>
-      <MyHeader navigation={this.props.navigation} title="Order" />
-      <Text>This is Home Screen</Text>
+      <MyHeader navigation={this.props.navigation} title="Order History" />
+      <Text>This is Order Screen</Text>
     </View>
     );
   }
