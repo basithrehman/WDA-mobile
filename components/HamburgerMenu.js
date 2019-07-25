@@ -3,7 +3,7 @@ import { Icon } from "react-native-elements";
 
 const HamburgerMenu = props => {
   return (
-    <Icon
+    <Icon underlayColor="#1f89dc"
       color="#fff"
       name="menu"
       onPress={() => props.navigation.toggleDrawer()}
