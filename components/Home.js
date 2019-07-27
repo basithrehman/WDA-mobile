@@ -28,6 +28,7 @@ export default class Home extends React.Component {
      <Button color='gray' title="Account"></Button>
        </View> 
       </View>
+      <Button title="BT" onPress= { () => this.props.navigation.navigate('Details')}> </Button>
     </View>
     );
   }
